@@ -1,6 +1,8 @@
 # Skuffed store
 E-commerce web application made with ReactJS (Consuming Django-Rest-Framework API)
 
+Backend(API): https://github.com/udz-codes/ecom-backend
+
 ## Key features
 - User signup
 - Authentication and Authorization
