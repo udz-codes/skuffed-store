@@ -18,8 +18,7 @@ const Cart = () => {
             <div className="d-flex flex-column flex-md-row align-items-center flex-wrap">
                 {
                     
-                    products.map((product, index) => {
-                        console.log(product.id)
+                    products && products.map((product, index) => {  
                         return (
                             <div className="col-10 col-md-4 m-2">
                                 <Card
