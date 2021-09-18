@@ -26,7 +26,7 @@ const Card = ({
             console.log("Added to cart")
         } else {
             console.log("Login please")
-            // setGoToSignin(true);
+            setGoToSignin(true);
         }
     }
 
@@ -124,7 +124,7 @@ const Card = ({
             </div>
         </div>
         {getRedirect(redirect)}
-        {/* {getLogin(goToSignin)} */}
+        {getLogin(goToSignin)}
       </div>
     );
 };

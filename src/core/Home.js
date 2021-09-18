@@ -35,7 +35,7 @@ export default function Home() {
                     products.map((item, index) => {
                         return (
                             <Fragment key={index}>
-                                <div className="col-10 col-sm-2 mb-4" >
+                                <div className="col-10 col-sm-2 mb-4 mx-4" >
                                     <Card props={item}/>
                                 </div>
                             </Fragment>
