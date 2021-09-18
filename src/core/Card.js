@@ -45,7 +45,7 @@ const Card = ({
                     onClick={addToCart}
                     className="col-12 btn btn-sm btn-outline-primary rounded-pill"
                 >
-                    Add to Cart
+                    Add to Cart and Checkout
                 </button>
             ) 
         )
