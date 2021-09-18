@@ -21,10 +21,10 @@ const Base = ({
             </div>
             <footer className="footer bg-warning mt-auto shadow-lg" style={{position: "relative", bottom: '0', width: "100%"}}>
                 <div className="container-fluid text-dark text-center py-3">
-                    <h5>If you got any questions, reach out to me at <a className="text-dark" target="_blank" href="https://www.linkedin.com/in/udz/">LinkedIn</a></h5>
-                    <button className="btn btn-dark rounded-pill btn-sm px-3">
+                    <h5>If you got any questions, reach out to me at LinkedIn</h5>
+                    <a target="_blank" href="https://www.linkedin.com/in/udz/" className="btn btn-dark rounded-pill btn-sm px-3">
                         Contact Us <small className="ms-1"><i className="fas fa-external-link-alt"></i></small>
-                    </button>
+                    </a>
                 </div>
             </footer>
         </div>
