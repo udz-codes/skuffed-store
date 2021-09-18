@@ -41,7 +41,7 @@ const Cart = () => {
         return (
             <div>
                 {
-                    products.length > 0 ? (
+                    products && products.length > 0 ? (
                         <PaymentB products={products} setReload={setReload}/>
                     ) : (
                         <h3>Please login or add something in the cart</h3>
