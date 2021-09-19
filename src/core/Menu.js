@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react'
 import { Link, withRouter } from 'react-router-dom'
 import { isAuthenticated, signout } from '../auth/helper'
+import logo from "../logo.svg"
 
 const currentTab = (history, path) => {
     if(history.location.pathname === path) {
@@ -15,7 +16,9 @@ const Menu = ({history, path}) => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-3">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="/">Skuffed Store</a>
+                    <a className="navbar-brand py-3" href="/">
+                        <img alt="Skuffed Store" src={logo} width="180" />
+                    </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
